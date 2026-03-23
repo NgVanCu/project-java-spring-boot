@@ -1,7 +1,5 @@
 package vn.cwr.laptopshop.dto;
 
-import org.springframework.web.multipart.MultipartFile;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -13,11 +11,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class BrandUpdateDTO {
+public class CategoryUpdateDTO {
     private String name;
 
-    private String country;
-
-    private MultipartFile logo;
     private String description;
 }
