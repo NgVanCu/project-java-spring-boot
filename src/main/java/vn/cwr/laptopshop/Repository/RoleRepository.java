@@ -1,4 +1,4 @@
-package vn.cwr.laptopshop.Repository;
+package vn.cwr.laptopshop.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

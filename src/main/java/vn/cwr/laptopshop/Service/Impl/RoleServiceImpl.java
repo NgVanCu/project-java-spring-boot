@@ -1,13 +1,13 @@
-package vn.cwr.laptopshop.Service.Impl;
+package vn.cwr.laptopshop.service.Impl;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import jakarta.validation.Valid;
-import vn.cwr.laptopshop.Repository.RoleRepository;
-import vn.cwr.laptopshop.Service.RoleService;
 import vn.cwr.laptopshop.domain.Role;
 import vn.cwr.laptopshop.dto.RoleDTO;
+import vn.cwr.laptopshop.repository.RoleRepository;
+import vn.cwr.laptopshop.service.RoleService;
 
 @Service
 public class RoleServiceImpl implements RoleService {

@@ -1,4 +1,4 @@
-package vn.cwr.laptopshop.Controller;
+package vn.cwr.laptopshop.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -7,9 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import jakarta.validation.Valid;
-import vn.cwr.laptopshop.Service.RoleService;
 import vn.cwr.laptopshop.domain.Role;
 import vn.cwr.laptopshop.dto.RoleDTO;
+import vn.cwr.laptopshop.service.RoleService;
+
 import org.springframework.web.bind.annotation.PostMapping;
 
 @RestController
